@@ -51,5 +51,5 @@ document.getElementById('formulaire').addEventListener('submit', function(event)
         alert("Vous ne savez pas conduire hors de question qu'on vous assure");
     }
 
- });
+ })
 
