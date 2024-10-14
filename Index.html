@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AssuJs</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
-<body>
-    <h1>AssuJs</h1>
+<body class="d-flex flex-column align-items-center">
+    <h1 class="text-center mt-5" style="text-decoration: overline underline">AssuJs</h1>
 
-    <form id="formulaire">
-        <label for="age">Quel est votre âge? :</label>
+    <form id="formulaire" class="d-flex flex-column  w-25 align-items-center my-5 rounded" style="background-color: rgba(34, 139, 34, 0.6)">
+        <label for="age" class="mt-3">Quel est votre âge? :</label>
         <input type="text" name="age" id="age">
-        <label for="permis">Depuis combien de temps avez-vous le premis? :</label>
+        <label for="permis" class="mt-3">Depuis combien de temps avez-vous le premis? :</label>
         <input type="text" name="permis" id="permis">
-        <label for="accident">combien avez vous eu d'accident résponsable? :</label>
+        <label for="accident" class="mt-3">combien avez vous eu d'accident résponsable? :</label>
         <input type="text" name="accident" id="accident">
-        <label for="duree">Depuis combien d'années êtes vous assuré chez nous? :</label>
+        <label for="duree" class="mt-3">Depuis combien d'années nous vous assurons? :</label>
         <input type="text" name="duree" id="duree">
-        <button type="submit">Soumettre</button>
+        <button type="submit" class=" align-items-center mt-3 rounded mb-3">Voir votre tarif</button>
     </form>
     
     <script src="Script.js"></script>

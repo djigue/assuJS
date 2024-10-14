@@ -1,8 +1,4 @@
-const form = document.getElementById('formulaire').value 
-
- addEventListener('submit', function(event) {
-    
-     event.preventDefault();
+document.getElementById('formulaire').addEventListener('submit', function(event) {
        
     const age = document.getElementById('age').value;
     const permis = document.getElementById('permis').value;
@@ -30,7 +26,7 @@ const form = document.getElementById('formulaire').value
     }else if (age >= 25 && permis >= 2 && accident == 0 && duree >= 1) {
        alert("votre tarif est le B");
     }else if (age < 25 && permis >= 2 && accident == 1 && duree >= 1) {
-       alert("votre tarif est le c");
+       alert("votre tarif est le C");
     }else if (age < 25 && permis >= 2 && accident == 0 && duree >= 1) {
        alert("votre tarif est le B");
     }else if (age < 25 && permis < 2 && accident == 0 && duree >= 1) {
