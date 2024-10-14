@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="*ngFor="let item of stream | async as list"">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,14 +8,18 @@
 <body>
     <h1>AssuJs</h1>
 
-    <form action="">
-        <label for="age">Quel est votre âge :</label>
-        <input type="text" name="age" id="age" pattern="[0-9]">
+    <form id="formulaire">
+        <label for="age">Quel est votre âge? :</label>
+        <input type="text" name="age" id="age">
         <label for="permis">Depuis combien de temps avez-vous le premis? :</label>
-        <input type="text" name="permis" id="permis" pattern="[0-9]">
+        <input type="text" name="permis" id="permis">
         <label for="accident">combien avez vous eu d'accident résponsable? :</label>
-        <input type="text" name="accident" id="accident" pattern="[0-9]">
+        <input type="text" name="accident" id="accident">
+        <label for="duree">Depuis combien d'années êtes vous assuré chez nous? :</label>
+        <input type="text" name="duree" id="duree">
+        <button type="submit">Soumettre</button>
     </form>
     
+    <script src="Script.js"></script>
 </body>
 </html>
